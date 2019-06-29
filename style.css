@@ -36,9 +36,11 @@ p{
 h3 a{
 	color:white;
 }
-.content .text-center{
+.placeBox .content h3:hover{
   color:#8436ad !important;	
 }
+
+
 
 .jumbotron{
 	padding-top: 0px!important;
