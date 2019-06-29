@@ -36,6 +36,9 @@ p{
 h3 a{
 	color:white;
 }
+.content .text-center{
+  color:#8436ad !important;	
+}
 
 .jumbotron{
 	padding-top: 0px!important;
