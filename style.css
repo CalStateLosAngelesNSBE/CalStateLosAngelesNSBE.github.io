@@ -38,6 +38,7 @@ h3 a{
 }
 a:hover{
   color:#8436ad !important;	
+	text-decoration:none;
 }
 
 
