@@ -1,3 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NSBE CSULA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale1.0">
+		<link rel="stylesheet" type="text/css" href="/sponsorshipStyle.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+				<div class="container" >
+				<a class="navbar-brand" href="/NSBE">
+    			<img src="/brandPurpleRing.png" width="60" height="60" alt="" >
+  				</a>
+				 <!--  <a class="navbar-brand" href="#">NSBE</a> -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item ">
+				        <a class="nav-link" href="/NSBE">Home <span class="sr-only">(current)</span></a>
+				      </li>
+
+						<li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" href="Resources" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          Resources
+						        </a>
+						        <div class="dropdown-menu" href="#Resources" aria-labelledby="navbarDropdown">
+						               <a class="dropdown-item" href="/NSBE/Members">Board Members</a>
+						          <a class="dropdown-item" href="/NSBE/Sponsorship">Sponsorship</a>					
+						          <a class="dropdown-item" href="#Resources">Internships</a>
+						              <a class="dropdown-item" href="#Resources">Research</a>					
+						          <a class="dropdown-item" href="#Resources">Confrences</a>
+						        </div>
+						</li>
+
+				      <!-- <li class="nav-item over">
+				        <a class="nav-link" href="#about">About</a>
+				      </li>					
+				      <li class="nav-item over">
+				        <a class="nav-link " href="#about">Board Members</a>
+				      </li>			  
+				      <li class="nav-item over">
+				        <a class="nav-link " href="#about">Sponsorship</a>
+				      </li>
+				       <li class="nav-item over">
+				        <a class="nav-link " href="#about">NSBE Opportunities</a>
+				      </li> -->
+				      <li class="nav-item over">
+				        <a class="nav-link " href="/NSBE/Calendar"> Events</a>
+				      </li>
+				       <li class="nav-item over">
+				      <a class="nav-link " href="#contact">Contact Us</a>
+				      </li>
+				      <li class="nav-item over">
+				        <a class="nav-link " href="#">Join us</a>
+				      </li>
+				      
+				      
+				    </ul>
+				  </div>
+			  </div>
+			</nav>	
+		</header>
+
 
 		<div class="jumbotron jumbotron-fluid height100p banner" id="home">
 		  <div class="container h100">
@@ -57,3 +128,43 @@
 					</div>
 				</div>	
 			</section>
+	
+	
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<ul class="sci">
+								<li>
+									<a href="https://www.facebook.com/nsbe.csula"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/nsbecsula1?lang=en"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/nsbecsula/"><i class="fa fa-instagram"></i></a>
+								</li>
+							</ul>
+						</div>
+					
+						
+					</div>
+					
+				</div>
+					<p class="crypt  text-center" style="margin-bottom: .1px; color:white;">
+							 © Copyright 2019 CSULA NSBE 
+						</p>
+			</footer>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			$(document).scroll(function(){
+				$('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+			});
+		</script>
+</body>
+</html>
