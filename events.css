@@ -558,7 +558,7 @@ span #calendarTitle{
 .xop-img-1:hover{
 transform:scale(1.05);
 background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
-	url(/Nationals.jpg);
+	url(images/Nationals.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	
@@ -566,7 +566,7 @@ background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
 
 .xop-img-1{
 	background:
-	url(/Nationals.jpg);
+	url(images/Nationals.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 }
@@ -574,13 +574,13 @@ background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
 .xop-img-2:hover{
 transform:scale(1.05);
 background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
-	url(/FRC.jpg);
+	url(images/FRC.jpg);
 	background-size: cover;
 		background-repeat: no-repeat;
 }
 .xop-img-2{
 	background:
-	url(/FRC.jpg);
+	url(images/FRC.jpg);
 	background-size: cover;
 		background-repeat: no-repeat;
 }
@@ -590,13 +590,13 @@ background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
 .xop-img-3:hover{
 transform:scale(1.05);
 background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
-	url(/gradSchoolWorkshop.jpg);
+	url(images/gradSchoolWorkshop.jpg);
 	background-size: cover;
 		background-repeat: no-repeat;
 }
 .xop-img-3{
 		background:
-	url(/gradSchoolWorkshop.jpg);
+	url(images/gradSchoolWorkshop.jpg);
 	background-size: cover;
 		background-repeat: no-repeat;
 }
@@ -606,13 +606,13 @@ background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
 .xop-img-4:hover{
 transform:scale(1.05);
 background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
-	url(/workshop.jpg);
+	url(images/workshop.jpg);
 	background-size: cover;
 		background-repeat: no-repeat;
 }
 .xop-img-4{
 		background:
-	url(/workshop.jpg);
+	url(images/workshop.jpg);
 	background-size: cover;
 		background-repeat: no-repeat;
 }
