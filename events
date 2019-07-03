@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NSBE CSULA</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale1.0">
+		<link rel="stylesheet" type="text/css" href="/calendarStyle.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    
+
+    <script type="text/javascript">
+    
+        $(document).ready(function(){
+             $(".xop-img-1").hover(
+                  function () {
+                    $(".info1").addClass("Description");
+
+                  },
+                  function () {
+                    $(".info1").removeClass("Description");
+                  }
+             );
+             
+                 $(".xop-img-2").hover(
+                  function () {
+                    $(".info2").addClass("Description");
+
+                  },
+                  function () {
+                    $(".info2").removeClass("Description");
+                  }
+             );
+             
+                 $(".xop-img-3").hover(
+                  function () {
+                    $(".info3").addClass("Description");
+
+                  },
+                  function () {
+                    $(".info3").removeClass("Description");
+                  }
+             );
+             
+                 $(".xop-img-4").hover(
+                  function () {
+                    $(".info4").addClass("Description");
+
+                  },
+                  function () {
+                    $(".info4").removeClass("Description");
+                  }
+             );
+        });
+    </script>
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<header>
+		
+		</header>
+
+
+
+
+<div class="jumbotron jumbotron-fluid height100p banner" id="home">
+		<nav class="navbar navbar-expand-lg navbar-light ">
+				<div class="container" >
+				<a class="navbar-brand" href="/NSBE">
+    			<img src="/brandPurpleRing.png" width="60" height="60" alt="">
+  				</a>
+				 <!--  <a class="navbar-brand" href="#">NSBE</a> -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav ml-lg-auto">
+				      <li class="nav-item ">
+				        <a class="nav-link" href="/NSBE">Home <span class="sr-only">(current)</span></a>
+				      </li>
+
+						 <li class="nav-item over">
+				        <a class="nav-link " href="/NSBE/Sponsorship"> Sponsorship</a>
+				      </li>
+
+				      <li class="nav-item over">
+				        <a class="nav-link " href="/NSBE/Calendar"> Board Members</a>
+				      </li>
+				      <li class="nav-item over">
+				        <a class="nav-link " href="/NSBE/Calendar"> Events</a>
+				      </li>
+				       <li class="nav-item over">
+				        <a class="nav-link " href="#contact">Contact Us</a>
+				      </li>
+				      <li class="nav-item over">
+				        <a class="nav-link " href="#">Join us</a>
+				      </li>
+				      
+				      
+				    </ul>
+				  </div>
+			  </div>
+			</nav>	
+		  <div class="container h100">
+		    <div class="contentBox h100">
+		    	<div class="">
+		    	<h1 class="text-center"> Events</h1>
+								<p class="text-center">Here are just a few of the events we have comming up. <br> Check out our calendar below to stay up to date!  </p>
+		    		
+		    	</div>
+		    </div>
+		  </div>
+		</div>
+		
+		
+		
+		
+		
+		
+ 	<section class="sec1" id="Events">
+ 		<div class="container">
+				
+					
+			<div class="xop-section">
+				<ul class="xop-grid">
+					<li>
+						<h3 class="eventTitle">Nationals</h3>
+						<div class="xop-box xop-img-1">
+							<a href="#">
+								 <div class="xop-info">
+								<p class="info1" >Join us at NSBE's biggest event of the year!</p>
+									</div>
+							</a>
+						</div>
+					</li>
+				
+
+			
+					<li>
+						<h3 class="eventTitle">FRC</h3>
+						<div class="xop-box xop-img-2">
+							<a href="#">
+								 <div class="xop-info">
+								<p class="info2"> The NSBE Fall Regional Conference!</p>
+									</div>
+							</a>
+						</div>
+					</li>
+			
+
+
+					
+					<li>
+						<h3 class="eventTitle">Grad School Workshop</h3>
+						<div class="xop-box xop-img-3">
+							<a href="#">
+								 <div class="xop-info">
+								<p class="info3">NSBE workshop!</p>
+									</div>
+							</a>
+						</div>
+					</li>
+
+
+
+					<li>
+						<h3 class="eventTitle"> Resume Workshop</h3>
+						<div class="xop-box xop-img-4">
+							<a href="#">
+								 <div class="xop-info">
+								<p class="info4">NSBE workshop!</p>
+									</div>
+							</a>
+						</div>
+					</li>
+
+				</ul>
+
+			</div>
+
+			</div>
+			<!-- <div class="row">
+						<div class="offset-sm-2 col-sm-8"> -->
+			</section>
+
+
+			<section class="sec2" id="calendar">
+				<div class=Calendar>
+				<div class="googleCalendar">
+				<iframe src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=bnNiZWNzdWxhcHJAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=bnNiZWNzdWxhQGdtYWlsLmNvbQ&amp;src=bnNiZWNzdWxhYWVAZ21haWwuY29t&amp;src=bnNiZWNzdWxhcHJvZ0BnbWFpbC5jb20&amp;src=bnNiZWNzdWxhc2VjQGdtYWlsLmNvbQ&amp;src=bnNiZWNzdWxhdnBAZ21haWwuY29t&amp;color=%23616161&amp;color=%2333B679&amp;color=%23E4C441&amp;color=%23F4511E&amp;color=%237986CB&amp;color=%239E69AF&amp;color=%234285F4" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>				</div>
+				</div>
+			</section>
+      
+      
+      
+			
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<ul class="sci">
+									<li>
+									<a class="facebook" href="https://www.facebook.com/nsbe.csula"><i class="fa fa-facebook "></i></a>
+								</li>
+								<li>
+									<a class="twitter" href="https://twitter.com/nsbecsula1?lang=en"><i class="fa fa-twitter twitter"></i></a>
+								</li>
+								<li>
+									<a class="insta" href="https://www.instagram.com/nsbecsula/"><i class="fa fa-instagram insta"></i></a>
+								</li>
+							</ul>
+						</div>
+					
+						
+					</div>
+					
+				</div>
+					<p class="crypt  text-center" style="margin-bottom: .1px; color:white;">
+							 © Copyright 2019 CSULA NSBE 
+						</p>
+			</footer>
+
+
