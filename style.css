@@ -468,15 +468,15 @@ footer{
 }
 
 .facebook:hover{
-	color:#3C5A99;
+	color:#3C5A99!important;
 }
 
 .twitter:hover{
-	color:#00aced;
+	color:#00aced!important;
 }
 
 .insta:hover{
-	color: #bc2a8d;
+	color: #bc2a8d!important;
 }
 
 .cpryt{
