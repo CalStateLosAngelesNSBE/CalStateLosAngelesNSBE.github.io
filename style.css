@@ -467,15 +467,15 @@ footer{
 	transition:0.5s;
 }
 
-.facebook :hover{
+.facebook:hover{
 	color:#3C5A99;
 }
 
-.twitter :hover{
+.twitter:hover{
 	color:#00aced;
 }
 
-.insta :hover{
+.insta:hover{
 	color: #bc2a8d;
 }
 
