@@ -135,19 +135,6 @@
 </div>
 
 
- <script type="text/javascript">
-  // init Masonry
-var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  columnWidth: '.grid-sizer'
-});
-
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry();
-});
-</script>
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -162,6 +149,19 @@ $grid.imagesLoaded().progress( function() {
 <script type="text/javascript" src="js/addons/imagesloaded.pkgd.min.js"></script>
 
 
+ <script type="text/javascript">
+  // init Masonry
+var $grid = $('.grid').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});
+</script>
 </body>
 
 
