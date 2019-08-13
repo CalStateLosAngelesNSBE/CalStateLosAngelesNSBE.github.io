@@ -172,7 +172,7 @@ margin-bottom:20px;}
 
 /*  Login Overlay*/
 /*overlay*/
-.overlay {
+.lay {
 	display:none;
 	position:fixed;
 	top:0;
@@ -290,7 +290,7 @@ margin-bottom:20px;}
 		margin:5px 0;
 	}
 }
-.content {
+.stuff {
 	width:100%;
 	margin-top:200px;
 	font-size:20px;
