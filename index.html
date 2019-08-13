@@ -18,6 +18,9 @@
   <link href="style.css" rel="stylesheet">
 
 
+	
+	
+	
 
 </head>
 <body>
@@ -120,7 +123,7 @@
         <a class="nav-link" href="photo-gallery.html">Photo Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Join Us</a>
+        <a class="nav-link pop" href="#">Join Us</a>
       </li>
     </ul>
 
@@ -297,8 +300,26 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
 
+	
+	 <script type="text/javascript" >
 
 
+
+    $(".pop").click(function(){
+        $(".overlay").fadeToggle(200);
+					$(".button a").toggleClass('btn-open').toggleClass('btn-close');
+//					        $(".button a").fadeToggle(200);
+       
+    });
+			  
+			  		    $(".small").click(function(){
+        $(".overlay").fadeToggle(200);
+					$(".button a").toggleClass('btn-open').toggleClass('btn-close');
+//					        $(".button a").fadeToggle(200);
+       
+    });
+
+</script>
 
 </body>
 
