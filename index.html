@@ -98,7 +98,7 @@
 </section>
 	
 	
-	<div class="overlay">
+	<div class="lay">
 	<div class="wrap">
 		<ul class="wrap-nav">
 			<li><a href="#">About</a>
@@ -159,9 +159,7 @@
 		</div>
 	</div>
 </div>
-<div class="content">
-	 Click on hamburger to open the overlay menu
-</div>
+
 
 <section class="sec-1-info">
 
@@ -308,19 +306,26 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
 
 	
-	<script type="text/javascript">
-	$(document).ready(function(){
-    $(".button a").click(function(){
+  <script type="text/javascript">
+    
+      	  $(document).ready(function(){
+
+			    $(".pop").click(function(){
         $(".overlay").fadeToggle(200);
-       $(this).toggleClass('btn-open').toggleClass('btn-close');
+					$(".button a").toggleClass('btn-open').toggleClass('btn-close');
+
+       
+    });
+			  
+			  		    $(".small").click(function(){
+        $(".overlay").fadeToggle(200);
+					$(".button a").toggleClass('btn-open').toggleClass('btn-close');
+
+   
     });
 });
-$('.overlay').on('click', function(){
-    $(".overlay").fadeToggle(200);   
-    $(".button a").toggleClass('btn-open').toggleClass('btn-close');
-    open = false;
-});
-		</script>
+
+    </script>
 
 
 </body>
