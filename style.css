@@ -187,6 +187,8 @@ margin-bottom:20px;}
 	text-align:center;
 	max-width:90%;
 	margin:0 auto;
+	background:url(images/MemberPage.jpg);
+  background-size: cover;
 }
 .wrap ul.wrap-nav {
 	border-bottom:1px solid #575757;
