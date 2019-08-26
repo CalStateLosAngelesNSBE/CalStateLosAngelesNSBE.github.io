@@ -212,7 +212,10 @@ a {
 .wrap ul.wrap-nav {
 
 	text-transform:capitalize;
-	padding:150px 0px 100px;
+	    margin-top: 30%;
+    border-radius: 25px;
+    border: solid white;
+    padding: 0;
 }
 
 .wrap-nav{
