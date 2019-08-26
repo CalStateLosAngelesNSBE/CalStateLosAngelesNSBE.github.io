@@ -196,7 +196,7 @@ a {
 	background:#333;
 	overflow:auto;
 	z-index:99;
-	background:url(images/SignInBackgroundBlur.jpg);
+	background:url(images/SignInBackground.jpg);
   background-size: cover;
 }
 .wrap {
@@ -218,6 +218,8 @@ a {
 .wrap-nav{
     color: black;
     font-weight: 900;
+		background:url(images/SignInBackgroundBlur2.jpg);
+  background-size: cover;
 }
 .wrap ul.wrap-nav li {
 	font-size:20px;
