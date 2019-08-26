@@ -172,8 +172,9 @@ margin-bottom:20px;}
 
 /*  Login Overlay*/
 /*overlay*/
-.nav a:hover{
-	color:purple;
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+ 
+    color: purple;
 }
 
 a {
