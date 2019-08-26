@@ -172,6 +172,21 @@ margin-bottom:20px;}
 
 /*  Login Overlay*/
 /*overlay*/
+
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: purple;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.btn-info {
+    background-color: purple;
+    color: #fff;
+}
 .lay {
 	display:none;
 	position:fixed;
@@ -192,7 +207,7 @@ margin-bottom:20px;}
 	
 }
 .wrap ul.wrap-nav {
-	border-bottom:1px solid #575757;
+
 	text-transform:capitalize;
 	padding:150px 0px 100px;
 }
