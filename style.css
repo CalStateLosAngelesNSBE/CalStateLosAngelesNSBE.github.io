@@ -196,6 +196,11 @@ margin-bottom:20px;}
 	text-transform:capitalize;
 	padding:150px 0px 100px;
 }
+
+.wrap-nav{
+    color: black;
+    font-weight: 900;
+}
 .wrap ul.wrap-nav li {
 	font-size:20px;
 	display:inline-block;
