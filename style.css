@@ -184,7 +184,7 @@ a {
 }
 
 .btn-info {
-    background-color: purple;
+    background-color: purple!important;
     color: #fff;
 }
 .lay {
