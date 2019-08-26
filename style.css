@@ -172,7 +172,9 @@ margin-bottom:20px;}
 
 /*  Login Overlay*/
 /*overlay*/
-
+.nav a:hover{
+	color:purple;
+}
 
 a {
     cursor: pointer;
