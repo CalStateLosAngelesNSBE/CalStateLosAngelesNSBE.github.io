@@ -20,10 +20,12 @@
 <script>
 function login() {
   var x = document.forms["myForm"]["pass"].value;
-  if (x != "Stewart") {
-    alert("wrong pass try again");
-    return false;
+  if (x == "Stewart") {
+	   location.replace("https://calstatelosangelesnsbe.github.io/sponsorship.html")
+  
   }
+	  alert("wrong pass try again");
+    return false;
 }
 </script>
 	
