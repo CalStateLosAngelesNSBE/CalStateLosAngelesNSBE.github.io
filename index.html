@@ -17,7 +17,15 @@
   <!-- Your custom styles (optional) -styles added in by who ever is running the nsbe website -->
   <link href="style.css" rel="stylesheet">
 
-
+<script>
+function login() {
+  var x = document.forms["myForm"]["pass"].value;
+  if (x != "Stewart") {
+    alert("wrong pass try again");
+    return false;
+  }
+}
+</script>
 	
 	
 	
@@ -110,7 +118,8 @@
 	<div class="wrap">
 		<ul class="wrap-nav">
 			<!-- Default form login -->
-<form class="text-center border border-light p-5" action="#!">
+<form class="text-center border border-light p-5" name="myForm" action="/action_page.php" onsubmit="return login()" method="post">
+
 
     <p class="h4 mb-4">Sign in</p>
 
@@ -118,11 +127,11 @@
    
 
     <!-- Password -->
-    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+    <input type="password" name="pass" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
 
 
     <!-- Sign in button -->
-    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+    <button value="Submit" class="btn btn-info btn-block my-4" type="submit">Sign in</button>
 
     <!-- Register -->
     <p>Not a member?
