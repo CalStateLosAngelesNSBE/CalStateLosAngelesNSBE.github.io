@@ -29,7 +29,7 @@ body{
 
 /* NavBar Styling*/
 
-/*.default-color {
+.default-color {
     background-color: Transparent!important;
 }
 
@@ -38,7 +38,7 @@ body{
     right: 0;
     left: 2em;
 }
-}*/
+}
 
 /*Home page styling*/
 .contentBox {
@@ -306,10 +306,7 @@ a {
 	.wrap ul.wrap-nav {
 		padding:30px 0px 0px;
 	}
-	nav ul {
-		opacity:0;
-		visibility:hidden;
-	}
+
 	.social {
 		color:#c1c1c1;
 		font-size:25px;
